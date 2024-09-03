@@ -12,7 +12,13 @@ This program uses OpenCV library. OpenCV can be installed using the following co
 ```
 pip install opencv-python
 ```
-This program uses the following built-in modules in Python: re, sys, os, and xml.etree.ElementTree.
+
+This program uses the lxml XML toolkit. lxml can be installed using the following command.
+```
+pip install lxml
+```
+
+This program uses the following built-in modules in Python: re, sys, os.
 
 ### Installing and Running the Program
 Download Assigment1.py to the same directory as the input, the set of file pairs. 
