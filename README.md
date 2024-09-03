@@ -8,7 +8,10 @@ Users can input a set of files pairs, with the pairs being made up of xml files 
 ## Getting Started
 
 ### Dependencies
-This program uses OpenCV library.
+This program uses OpenCV library. OpenCV can be installed using the following command.
+```
+pip install opencv-python
+```
 
 ### Installing and Running the Program
 Download Assigment1.py to the same directory as the input, the set of file pairs. 
