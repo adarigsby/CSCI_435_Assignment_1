@@ -12,6 +12,7 @@ This program uses OpenCV library. OpenCV can be installed using the following co
 ```
 pip install opencv-python
 ```
+This program uses the following built-in modules in Python: re, sys, os, and xml.etree.ElementTree.
 
 ### Installing and Running the Program
 Download Assigment1.py to the same directory as the input, the set of file pairs. 
