@@ -3,19 +3,13 @@ This tool highlights the leaf level GUI-components in screenshots of Android app
 
 ## Description
 This Python program ouputs annotated screenshots of Android applications, highlighting leaf level GUI-components with yellow boxes. 
-Users can input a set of files pairs, with the pairs being made up of xml files and screenshots in the form of png files. The program then parses the xml files for leaf-level elements and creates new corresponding images identical to the original screenshots, but with yellow rectangles around each of these elements. The output of the program is the set of these annotated images, grouped in a directory titled "AnnotatedImages." 
+Users can input a set of file pairs, with the pairs being made up of xml files and screenshots in the form of png files. The program then parses the xml files for leaf level components and creates new corresponding images identical to the original screenshots, but with yellow rectangles around each of these components. The output of the program is the set of these annotated images, grouped in a directory titled "AnnotatedImages." 
 
 ## Dependencies
-This program uses OpenCV library. OpenCV can be installed using the following command.
+This program uses the OpenCV library and the lxml XML toolkit. These packages can be installed by running the following command, where the requirements.txt file in this repository is present. 
 ```
-pip install opencv-python
+pip install -r requirements.txt
 ```
-
-This program uses the lxml XML toolkit. lxml can be installed using the following command.
-```
-pip install lxml
-```
-
 This program uses the following built-in modules in Python: re, sys, os.
 
 ## Installing and Running the Program
@@ -25,6 +19,11 @@ Within that directory, run the following command with 'inputdirectory' being the
 ```
 python Assignment1.py inputdirectory
 ```
+Below is an example with the set of input provided for this assigment. 
+```
+python Assignment1.py Programming-Assignment-Data
+```
+
 
 
 
